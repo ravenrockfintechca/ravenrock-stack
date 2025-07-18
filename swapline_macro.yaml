@@ -1,0 +1,6 @@
+name: SwapLine Liquidity Signal
+category: macro
+prompt: |
+  请根据最近一次美联储 Swap Line 使用数据，结合 EUR/USD cross-currency basis，判断美元流动性状态，输出可交易策略（ETF或货币对），生成结构说明。
+tags: [macro, swapline, dollar, FX]
+output: markdown + code
