@@ -22,7 +22,7 @@ async def signal(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update.message.reply_text("未找到对应策略。")
 
 def main():
-    token = os.getenv("TG_BOT_TOKEN")
+    token = os.getenv("8106334481:AAEVargA7MNsrk_nqrr27vAtSLv7iN-7tPo")
     app = ApplicationBuilder().token(token).build()
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("signal", signal))
