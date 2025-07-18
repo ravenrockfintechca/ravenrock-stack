@@ -1,4 +1,4 @@
-# Ravenrock Stack v3.0
+# Ravenrock Stack v1.0
 
 > 地球上首个语义驱动交易系统结构 · 构建者：ravenrockfintechca
 
