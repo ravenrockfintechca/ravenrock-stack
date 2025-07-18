@@ -1,0 +1,30 @@
+strategies:
+  - name: Dollar Swap Line Arbitrage
+    path: macro/dollar_swap_line_arbitrage.md
+    category: macro
+    tags: [usd, swapline, fx, liquidity]
+    instruments: [FXE, UUP, EURUSD]
+
+  - name: Japan YCC Breakout
+    path: macro/japan_ycc_breakout.py
+    category: macro
+    tags: [jgb, yen, rates, carry]
+    instruments: [JGB10Y, USDJPY, GLD]
+
+  - name: Gamma Squeeze Detector
+    path: volatility/gamma_squeeze_detector.py
+    category: volatility
+    tags: [gamma, options, volatility, squeeze]
+    instruments: [TSLA, GME, SPX, VIX]
+
+  - name: FOMC Drift Detector
+    path: flow/fomc_drift_detector.ipynb
+    category: flow
+    tags: [fomc, drift, spy, fed]
+    instruments: [SPY, QQQ, ES1!]
+
+  - name: ETF Mispricing Arbitrage
+    path: structure/ETF_mispricing_arbitrage.md
+    category: structure
+    tags: [etf, nav, mispricing]
+    instruments: [GLD, IAU, HYG]

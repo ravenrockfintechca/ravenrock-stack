@@ -1,0 +1,34 @@
+openapi: 3.0.0
+info:
+  title: Ravenrock Strategy Search API
+  version: 1.0.0
+paths:
+  /search:
+    get:
+      summary: 根据关键词搜索策略
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+          description: 策略关键词，例如 "volatility" 或 "FX"
+      responses:
+        '200':
+          description: 返回匹配策略路径和简介
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  strategies:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        path:
+                          type: string
+                        category:
+                          type: string
